@@ -62,7 +62,12 @@ chelsea = Team(
     board_color=(244, 86, 64),
     text_color=(255, 255, 255),
 )
-man_city = Team(name="Man City", abbreviation="MNC", color=(240, 230, 188))
+man_city = Team(
+    name="Man City", 
+    abbreviation="MNC", 
+    color=(168, 50, 103),
+)
+
 teams = [chelsea, man_city]
 match = Match(home=chelsea, away=man_city, fps=fps)
 match.team_possession = man_city

@@ -1,0 +1,6 @@
+
+poetry shell
+
+python run.py --possession --model Model/ball.pt --video testVideo2.mp4
+
+python run.py --passes--model Model/ball.pt --video testVideo2.mp4

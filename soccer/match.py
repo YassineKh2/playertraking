@@ -398,7 +398,7 @@ class Match:
             Counter background
         """
 
-        counter = PIL.Image.open("./images/possession_board.png").convert("RGBA")
+        counter = PIL.Image.open("./images/possession_board_linkup.png").convert("RGBA")
         counter = Draw.add_alpha(counter, 210)
         counter = np.array(counter)
         red, green, blue, alpha = counter.T
@@ -418,7 +418,7 @@ class Match:
             Counter background
         """
 
-        counter = PIL.Image.open("./images/passes_board.png").convert("RGBA")
+        counter = PIL.Image.open("./images/passes_board_linkup.png").convert("RGBA")
         counter = Draw.add_alpha(counter, 210)
         counter = np.array(counter)
         red, green, blue, alpha = counter.T
